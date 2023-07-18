@@ -12,4 +12,4 @@ cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/'
 
 cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/', host=f"/Ip/",
 
-![Mi imagen](D:/Descargas Crhome/img_rugby_defense.png)
+![](https://github.com/SatSadhu/RugbyDefense/blob/main/img_rugby_defense.png?raw=true)
