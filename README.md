@@ -7,5 +7,7 @@ La aplicación actual presenta ciertas funcionalidades restringidas debido a la 
 Para probar la aplicación, es posible utilizar la propia PC como servidor. Solo es necesario modificar los parámetros en el archivo ".py" siguiendo las instrucciones proporcionadas al final del texto. Esto permitirá a los usuarios probar y experimentar con la aplicación localmente en su computadora.
 
 cnx = mysql.connector.connect(user='/User MySql/', password=f'/Password MySql/', host=f"/Ip/", database=f"/Base de datos/")
+
 cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/', host=f"/Ip/",
+
 cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/', host=f"/Ip/",
