@@ -11,3 +11,5 @@ cnx = mysql.connector.connect(user='/User MySql/', password=f'/Password MySql/',
 cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/', host=f"/Ip/",
 
 cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/', host=f"/Ip/",
+
+![Descripción de la imagen]([URL_de_la_imagen](https://github.com/SatSadhu/RugbyDefense/blob/main/img_rugby_defense.png?raw=true)https://github.com/SatSadhu/RugbyDefense/blob/main/img_rugby_defense.png?raw=true)
