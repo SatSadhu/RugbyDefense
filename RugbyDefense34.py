@@ -401,7 +401,7 @@ def nuevo_2do_tiempo():
         treeview.delete(*treeview.get_children())
 
         # Creamos una conexión a la base de datos
-        cnx = mysql.connector.connect(user='gonal', password=f'kali', host=f"192.168.0.13", database=f"rugby_papa")
+        cnx = mysql.connector.connect(user='user', password=f'passwd', host=f"192.168.0.13", database=f"database")
         cursor = cnx.cursor()
 
         cursor.execute("SELECT Jugador FROM rugby")
@@ -473,14 +473,14 @@ def base_de_datos_buscar():
     global database_papa_psswd
     global database_papa_user_and_database
     if tiempo_dif == 0:
-        database_papa_psswd = 'kali'
-        database_papa_user_and_database = 'rugby_papa'
+        database_papa_psswd = 'passwd'
+        database_papa_user_and_database = 'dtbase'
     elif tiempo_dif == 1:
-        database_papa_psswd = 'kali'
-        database_papa_user_and_database = 'rugby_papa2'
+        database_papa_psswd = 'passwd'
+        database_papa_user_and_database = 'dtbase'
 
     # Creamos una conexión a la base de datos
-    cnx = mysql.connector.connect(user=f'gonal', password=f'kali', host=f"192.168.0.13",
+    cnx = mysql.connector.connect(user=f'user', password=f'passwd', host=f"192.168.0.13",
                                   database=f'{database_papa_user_and_database}')
     cursor = cnx.cursor()
 
@@ -509,11 +509,11 @@ def conseguir():
     global database_papa_psswd
     global database_papa_user_and_database
     if tiempo_dif == 0:
-        database_papa_psswd = 'kali'
-        database_papa_user_and_database = 'rugby_papa'
+        database_papa_psswd = 'psswd'
+        database_papa_user_and_database = 'dtbase'
     elif tiempo_dif == 1:
         database_papa_psswd = 'kali'
-        database_papa_user_and_database = 'rugby_papa2'
+        database_papa_user_and_database = 'dtbase'
 
     def decimoquinto_jugador():
         try:
@@ -972,7 +972,7 @@ def conseguir():
     }
 
     # Creamos una conexión a la base de datos
-    cnx = mysql.connector.connect(user=f'gonal', password=f'kali', host=f"192.168.0.13",
+    cnx = mysql.connector.connect(user=f'user', password=f'passwd', host=f"192.168.0.13",
                                   database=f'{database_papa_user_and_database}')
     cursor = cnx.cursor()
 
