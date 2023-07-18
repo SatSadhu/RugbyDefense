@@ -12,4 +12,7 @@ cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/'
 
 cnx = mysql.connector.connect(user=f'/User MySql/', password=f'/Password MySql/', host=f"/Ip/",
 
+database_papa_user_and_database = '//database//'
+
+
 ![](https://github.com/SatSadhu/RugbyDefense/blob/main/img_rugby_defense.png?raw=true)
